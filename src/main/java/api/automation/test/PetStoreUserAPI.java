@@ -58,6 +58,6 @@ public class PetStoreUserAPI {
 		String jsonvalue = jsonPathEvaluator.prettify();
 		System.out.println(jsonvalue);
 
-		Assert.assertEquals(response.getStatusCode(), 200);
+		Assert.assertEquals(response.getStatusCode(), 20);
 	}
 }
